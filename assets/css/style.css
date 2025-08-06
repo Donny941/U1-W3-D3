@@ -41,6 +41,8 @@ button {
   background: linear-gradient(274deg, rgba(87, 145, 0, 1) 0%, rgba(173, 255, 47, 1) 48%, rgba(87, 145, 0, 1) 100%);
 }
 input {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
   border-right: 2px solid greenyellow;
   border-top: 2px solid greenyellow;
   border-radius: 12px 12px 12px;
@@ -50,7 +52,7 @@ input {
   background-color: #292a33;
 }
 input::placeholder {
-  font-size: 17px;
+  font-size: 15px;
 }
 .task-item {
   background-color: #232229;
