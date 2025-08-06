@@ -27,7 +27,7 @@ form.addEventListener("submit", function (e) {
   // Inserimento value
   h2.innerText = taskInput.value;
 
-  // Assenazione Task creati -----
+  // Assenazione a Task elementi creati -----
   task.appendChild(h2);
   task.appendChild(completeTask);
   task.appendChild(deleteTask);
