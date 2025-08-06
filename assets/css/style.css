@@ -67,6 +67,7 @@ input::placeholder {
   border-radius: 12px 12px 12px;
 }
 h2 {
+  word-break: break-all;
   font-size: 18px;
   color: white;
   display: inline-block;
