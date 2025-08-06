@@ -11,7 +11,7 @@ body {
   font-optical-sizing: auto;
   background-color: #3d3e49;
 }
-
+/* Generali */
 h1 {
   color: greenyellow;
 }
@@ -29,7 +29,7 @@ p {
   border-top: 2px solid greenyellow;
   border-left: 2px solid greenyellow;
 }
-
+/* Classi per elementi creati in JS */
 button {
   font-size: 15px;
   font-weight: 600;

@@ -33,14 +33,14 @@ form.addEventListener("submit", function (e) {
   task.appendChild(deleteTask);
 
   list.appendChild(task);
-  // Reset campo value
+  // Reset campo value -----
   taskInput.value = " ";
-
+  // Task completata ------
   completeTask.onclick = function (e) {
     h2.classList.add("h2Check");
   };
 
-  //   Eliminare Task
+  //   Eliminare Task ------
   trashBin.onclick = function (e) {
     task.remove();
   };
