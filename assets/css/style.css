@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 17rem;
+  margin: auto;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  background-color: #3d3e49;
+}
+
+h1 {
+  color: greenyellow;
+}
+p {
+  color: greenyellow;
+}
+.ToDoList {
+  background-color: #32333b;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px 12px 12px;
+  box-shadow: 5px 6px 12px black;
+  border-top: 2px solid greenyellow;
+  border-left: 2px solid greenyellow;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  border-radius: 12px 12px 12px;
+  width: 20%;
+  height: 40px;
+  padding: 10px;
+  background: linear-gradient(274deg, rgba(87, 145, 0, 1) 0%, rgba(173, 255, 47, 1) 48%, rgba(87, 145, 0, 1) 100%);
+}
+input {
+  border-right: 2px solid greenyellow;
+  border-top: 2px solid greenyellow;
+  border-radius: 12px 12px 12px;
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  background-color: #292a33;
+}
+input::placeholder {
+  font-size: 17px;
+}
+.task-item {
+  background-color: #232229;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-left: 5px solid greenyellow;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  border-radius: 12px 12px 12px;
+}
+h2 {
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  max-width: 50%;
+  margin: 0;
+  vertical-align: middle;
+  margin-right: 5rem;
+}
+.h2Check {
+  text-decoration: line-through;
+  color: greenyellow;
+}
+
+#icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  max-width: 20%;
+}
+
+img {
+  display: inline-block;
+  width: 30px;
+  vertical-align: middle;
+}
